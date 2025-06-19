@@ -17,3 +17,16 @@ git push -u origin master
 adk web
 aws web -help
 adk web --port 8001
+git add .
+git commit -m "Working 2 agents"'
+
+"
+git commit -m "Working 2 agents"
+git push
+git pull
+git config pull.rebase false
+git pull
+git push
+adk web
+adk web --port 8001
+git status

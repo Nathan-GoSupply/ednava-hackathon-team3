@@ -27,7 +27,7 @@ For each project phase, perform the following steps:
 ---
 
 **🏗️ Phase 2: Delivery**
-* **Action:** Call `delivery_agent` using the outputs of the discovery phase (especially product strategy and requirements) to:
+1. * **Action:** Call `delivery_agent` using the outputs of the discovery phase (especially product strategy and requirements) to:
     - Define MVP features.
     - Generate initial design mockups.
     - Estimate development complexity and timelines.

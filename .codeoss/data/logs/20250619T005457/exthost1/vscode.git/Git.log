@@ -81,3 +81,4 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 2025-06-19 03:07:43.767 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
 2025-06-19 03:07:43.823 [info] > git status -z -uall [74ms]
 2025-06-19 03:08:42.092 [info] > git check-ignore -v -z --stdin [3ms]
+2025-06-19 03:44:26.235 [info] > git check-ignore -v -z --stdin [5ms]

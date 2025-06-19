@@ -1,0 +1,5 @@
+.cache
+.codeoss
+.codeoss/*
+.cache/*
+.codeoss/data/*
