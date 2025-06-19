@@ -1,0 +1,76 @@
+2025-06-19 00:58:25.186 [warning] Dir "/home/hackathon_participant12/.pixi/envs" is not watchable (directory does not exist)
+2025-06-19 00:58:25.186 [info] Starting Environment refresh
+2025-06-19 00:58:25.186 [info] Searching for interpreters in posix paths locator
+2025-06-19 00:58:25.186 [info] Searching for pyenv environments
+2025-06-19 00:58:25.186 [info] Searching for conda environments
+2025-06-19 00:58:25.186 [info] Searching for global virtual environments
+2025-06-19 00:58:25.186 [info] Searching for custom virtual environments
+2025-06-19 00:58:25.186 [info] pyenv is not installed
+2025-06-19 00:58:25.186 [info] Finished searching for pyenv environments: 18 milliseconds
+2025-06-19 00:58:25.186 [info] Finished searching for custom virtual envs: 16 milliseconds
+2025-06-19 00:58:25.186 [info] > conda info --json
+2025-06-19 00:58:25.186 [info] > hatch env show --json
+2025-06-19 00:58:25.186 [info] cwd: .
+2025-06-19 00:58:25.186 [info] > pyenv which python
+2025-06-19 00:58:25.186 [info] cwd: .
+2025-06-19 00:58:25.186 [info] Finished searching for global virtual envs: 56 milliseconds
+2025-06-19 00:58:25.187 [info] Found: /bin/python --> /bin/python3.12
+2025-06-19 00:58:25.189 [info] Found: /bin/python3 --> /bin/python3.12
+2025-06-19 00:58:25.189 [info] Found: /bin/python3.12 --> /bin/python3.12
+2025-06-19 00:58:25.210 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2025-06-19 00:58:25.211 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2025-06-19 00:58:25.211 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2025-06-19 00:58:25.248 [info] Finished searching for interpreters in posix paths locator: 128 milliseconds
+2025-06-19 00:58:25.248 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-06-19 00:58:25.275 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-06-19 00:58:25.275 [info] Environments refresh paths discovered (event): 163 milliseconds
+2025-06-19 00:58:25.275 [info] Environments refresh paths discovered: 163 milliseconds
+2025-06-19 00:58:25.344 [info] Environments refresh finished (event): 232 milliseconds
+2025-06-19 00:58:25.358 [info] Environment refresh took 246 milliseconds
+2025-06-19 00:58:25.367 [info] Python interpreter path: /bin/python
+2025-06-19 00:58:28.830 [info] Starting Jedi language server for hackathon_participant12.
+2025-06-19 00:59:53.213 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/agent.py
+2025-06-19 01:03:08.051 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/sub_agents/product_name_create/agent.py
+2025-06-19 01:03:08.504 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/sub_agents/product_name_create/agent.py
+2025-06-19 01:03:25.800 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/sub_agents/product_name_create/prompt.py
+2025-06-19 01:03:40.117 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/prompt.py
+2025-06-19 01:03:51.690 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/__init__.py
+2025-06-19 01:04:07.282 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/sub_agents/product_name_create/__init__.py
+2025-06-19 01:15:28.701 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/deployment/deploy.py
+2025-06-19 01:41:50.999 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/prompt.py
+2025-06-19 01:48:31.670 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/deliveryAgent/agent.py
+2025-06-19 01:49:12.837 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/delivery/agent.py
+2025-06-19 01:49:20.146 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/delivery/agent.py
+2025-06-19 01:49:21.714 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/delivery/agent.py
+2025-06-19 01:49:29.380 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/delivery/agent.py
+2025-06-19 01:50:10.008 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/delivery/prompt.py
+2025-06-19 01:50:15.251 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/delivery/prompt.py
+2025-06-19 01:56:40.945 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/prompt.py
+2025-06-19 01:56:42.114 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/prompt.py
+2025-06-19 02:32:34.921 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:32:45.744 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:32:57.247 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:33:07.128 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:33:21.623 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:33:23.352 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:33:37.279 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:34:07.400 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:34:08.082 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:34:26.819 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:34:34.116 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:34:42.831 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:34:48.602 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:34:59.885 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/discovery/agent.py
+2025-06-19 02:35:05.315 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/discovery/agent.py
+2025-06-19 02:35:07.067 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/discovery/agent.py
+2025-06-19 02:35:13.275 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/discovery/agent.py
+2025-06-19 02:35:46.043 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/discovery/prompt.py
+2025-06-19 02:35:54.472 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/discovery/prompt.py
+2025-06-19 02:36:00.195 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/discovery/prompt.py
+2025-06-19 02:37:29.908 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/discovery/prompt.py
+2025-06-19 02:39:00.660 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/discovery/prompt.py
+2025-06-19 02:40:30.507 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/agent.py
+2025-06-19 02:41:30.203 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/discovery/__init__.py
+2025-06-19 02:41:31.737 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/sub_agents/discovery/__init__.py
+2025-06-19 02:45:42.680 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/prompt.py
+2025-06-19 02:45:43.824 [info] Discover tests for workspace name: hackathon_participant12 - uri: /home/hackathon_participant12/product-manager/prompt.py

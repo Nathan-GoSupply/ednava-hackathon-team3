@@ -1,0 +1,42 @@
+2025-06-19 00:55:05.288 [info] Extension host with pid 1984 started
+2025-06-19 00:55:05.321 [info] Lock '/home/hackathon_participant12/.codeoss/data/User/workspaceStorage/778836bb/vscode.lock': Lock acquired.
+2025-06-19 00:55:05.428 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-19 00:55:05.594 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-19 00:55:05.715 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-19 00:55:05.715 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-19 00:55:05.998 [info] Eager extensions activated
+2025-06-19 00:55:05.999 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 00:55:05.999 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 00:55:06.000 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-06-19 00:55:06.000 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 00:55:06.001 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 00:55:08.320 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-19 00:55:08.321 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-19 00:55:08.322 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-19 00:55:08.508 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 00:55:10.814 [error] onWillSaveTextDocument-listener from extension 'EditorConfig.EditorConfig' threw ERROR
+2025-06-19 00:55:10.820 [error] Error: timeout
+    at Timeout._onTimeout (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:135:108282)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-06-19 02:25:45.941 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-06-19 02:25:46.047 [info] Lock '/home/hackathon_participant12/.codeoss/data/User/workspaceStorage/778836bb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-06-19 02:25:46.081 [info] Extension host with pid 1984 exiting with code 0
+2025-06-19 02:30:24.691 [info] Extension host with pid 6156 started
+2025-06-19 02:30:24.706 [info] Lock '/home/hackathon_participant12/.codeoss/data/User/workspaceStorage/778836bb/vscode.lock': Lock acquired.
+2025-06-19 02:30:24.836 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-19 02:30:24.838 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
+2025-06-19 02:30:24.838 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-19 02:30:24.839 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-19 02:30:24.839 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-19 02:30:24.840 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onCommand:cloudcode.gemini.chatView.focus'
+2025-06-19 02:30:26.603 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-19 02:30:26.785 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-19 02:30:26.786 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-19 02:30:27.532 [info] Eager extensions activated
+2025-06-19 02:30:27.533 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 02:30:27.533 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 02:30:27.534 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 02:30:27.535 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 03:07:42.369 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6449
+2025-06-19 03:07:44.141 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6449

@@ -1,0 +1,71 @@
+2025-06-19 00:55:32.929 [info] Extension host with pid 2091 started
+2025-06-19 00:55:32.930 [error] Error: EEXIST: file already exists, open '/home/hackathon_participant12/.codeoss/data/User/workspaceStorage/778836bb/vscode.lock'
+2025-06-19 00:55:32.937 [info] Lock '/home/hackathon_participant12/.codeoss/data/User/workspaceStorage/778836bb/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-19 00:55:32.944 [info] Lock '/home/hackathon_participant12/.codeoss/data/User/workspaceStorage/778836bb/vscode.lock': The lock does not look stale, elapsed: 499 ms, giving up.
+2025-06-19 00:55:32.958 [info] Lock '/home/hackathon_participant12/.codeoss/data/User/workspaceStorage/778836bb-1/vscode.lock': Lock acquired.
+2025-06-19 00:55:33.077 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-06-19 00:55:33.078 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-19 00:55:33.079 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-19 00:55:33.079 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-19 00:55:33.080 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-19 00:55:34.978 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-19 00:55:35.187 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-19 00:55:35.187 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-19 00:55:35.324 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
+2025-06-19 00:55:35.546 [info] Eager extensions activated
+2025-06-19 00:55:35.546 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 00:55:35.547 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 00:55:35.548 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 00:55:35.775 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-19 00:57:59.600 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2025-06-19 00:58:24.434 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-06-19 00:58:24.930 [error] Error: spawn /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python-env-tools/bin/pet ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-06-19 00:59:45.351 [error] [ms-python.python] provider FAILED
+2025-06-19 00:59:45.351 [error] Error: FileNotFoundError: [Errno 2] No such file or directory: '/home/hackathon_participant12/Untitled-1'
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2049071)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2047031)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2043325)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-19 00:59:53.087 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model6)
+2025-06-19 02:32:08.948 [error] [ms-python.python] provider FAILED
+2025-06-19 02:32:08.975 [error] Error: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2049071)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2047031)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2043325)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-19 02:34:37.596 [error] [ms-python.python] provider FAILED
+2025-06-19 02:34:37.596 [error] Error: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2049071)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2047031)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2043325)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-19 02:34:37.603 [error] [ms-python.python] provider FAILED
+2025-06-19 02:34:37.603 [error] Error: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2049071)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2047031)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2043325)
+    at processImmediate (node:internal/timers:483:21)
+2025-06-19 02:53:28.611 [info] Extension host terminating: received terminate message from renderer
+2025-06-19 02:53:28.612 [info] Lock '/home/hackathon_participant12/.codeoss/data/User/workspaceStorage/778836bb-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-06-19 02:53:28.692 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:2431)
+    at Object.append (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:2528)
+    at t.FileLoggableOutputChannel.append (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/packages/utils/loggable_output_channel.ts:35:30)
+    at Socket.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/node_modules/vscode-languageclient/lib/node/main.js:430:80)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-06-19 02:53:28.718 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:2431)
+    at Object.appendLine (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:2570)
+    at R.logOutputMessage (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:316522)
+    at R.info (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:316255)
+    at ChildProcess.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:540528)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-19 02:53:28.722 [info] Extension host with pid 2091 exiting with code 0
