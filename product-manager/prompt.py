@@ -27,18 +27,25 @@ For each project phase, perform the following steps:
 ---
 
 **🏗️ Phase 2: Delivery**
-1. * **Action:** Call `delivery_agent` using the outputs of the discovery phase (especially product strategy and requirements) to:
+* **Action:** Call `delivery_agent` using the outputs of the discovery phase (especially product strategy and requirements) to:
     - Define MVP features.
     - Generate initial design mockups.
     - Estimate development complexity and timelines.
     - Identify necessary certifications and compliance considerations.
-* **Expected Output:**
-    - Prioritized feature list.
-    - Design ideas or mockups.
-    - Technical feasibility assessment.
-    - Compliance checklist.
-* **Response Format:**
-    * delivery_agent tool reported: [exact result from the delivery_agent]
+
+* **IMPORTANT:** You MUST let the `delivery_agent` handle all requirement confirmation steps directly with the user. Do NOT intervene or ask for confirmation yourself.
+    - The `delivery_agent` will:
+        - Present the requirements
+        - Ask the user if they align with expectations
+        - Adjust if needed
+        - THEN generate the roadmap, design mockups, complexity/timelines, and compliance requirements
+        - AND finally present a structured summary back to you
+    - Ensure that you present these requirements back to the user
+
+* **Your task as root agent is to:**
+    - Wait for the `delivery_agent` to finish
+    - Present the final summary from the `delivery_agent` using the format:
+      **delivery_agent tool reported: [Exact Result From Tool]**
 
 ---
 

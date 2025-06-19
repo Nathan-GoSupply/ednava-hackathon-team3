@@ -30,3 +30,9 @@ git push
 adk web
 adk web --port 8001
 git status
+git add .
+git commit -m "delivery wip"
+p
+git push
+adk web --port 8001
+git status
