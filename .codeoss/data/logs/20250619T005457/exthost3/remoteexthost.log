@@ -27,3 +27,6 @@
 2025-06-19 03:08:24.652 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6449
 2025-06-19 03:08:30.527 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6449
 2025-06-19 03:08:35.872 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6449
+2025-06-19 03:10:30.671 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6449
+2025-06-19 03:11:00.836 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-19 03:29:19.214 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
